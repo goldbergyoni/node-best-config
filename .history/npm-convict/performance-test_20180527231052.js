@@ -1,0 +1,1 @@
+//write here a client that read 10 keys

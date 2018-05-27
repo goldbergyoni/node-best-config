@@ -1,0 +1,15 @@
+{
+  "name": "npm-convict",
+  "version": "1.0.0",
+  "description": "",
+  "main": "configuration-service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DB_HOST='so"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convict": "^4.2.0"
+  }
+}
