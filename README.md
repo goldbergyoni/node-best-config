@@ -1,0 +1,2 @@
+# node-config-battle
+A scientific comparison of Node config packages
