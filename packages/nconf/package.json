@@ -4,7 +4,9 @@
 	"description": "A scientific comparison of Node.js config packages ::",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start":
+			"cross-env NODE_ENV=production node client.js --database.password 'secret'"
 	},
 	"repository": {
 		"type": "git",
@@ -15,5 +17,9 @@
 	"bugs": {
 		"url": "https://github.com/i0natan/node-config-battle/issues"
 	},
-	"homepage": "https://github.com/i0natan/node-config-battle#readme"
+	"homepage": "https://github.com/i0natan/node-config-battle#readme",
+	"dependencies": {
+		"cross-env": "^5.1.6",
+		"nconf": "^0.10.0"
+	}
 }
