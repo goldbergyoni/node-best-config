@@ -1,0 +1,24 @@
+{
+	"name": "config-battle-config",
+	"version": "1.0.0",
+	"description": "A scientific comparison of Node.js config packages ::",
+	"main": "client.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node client.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/i0natan/node-config-battle.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/i0natan/node-config-battle/issues"
+	},
+	"homepage": "https://github.com/i0natan/node-config-battle#readme",
+	"dependencies": {
+		"config": "^1.30.0",
+		"cross-env": "^5.1.6"
+	}
+}
