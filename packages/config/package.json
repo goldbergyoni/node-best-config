@@ -5,7 +5,7 @@
 	"main": "client.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node client.js"
+		"start": "cross-env NODE_ENV=production node client.js"
 	},
 	"repository": {
 		"type": "git",

@@ -1,13 +1,68 @@
 {
-	"Customer": {
-		"dbConfig": {
-			"host": "localhost",
-			"port": 5984,
-			"dbName": "customers"
+	"env": {
+		"doc": "The application environment.",
+		"format": [
+			"production",
+			"development",
+			"test"
+		],
+		"default": "development",
+		"env": "NODE_ENV"
+	},
+	"ip": {
+		"doc": "The IP address to bind.",
+		"format": "ipaddress",
+		"default": "127.0.0.1",
+		"env": "IP_ADDRESS"
+	},
+	"port": {
+		"doc": "The port to bind.",
+		"format": "port",
+		"default": 8080,
+		"env": "PORT",
+		"arg": "port"
+	},
+	"db": {
+		"host": {
+			"doc": "Database host name/IP",
+			"format": "*",
+			"default": "server1.dev.test2",
+			"env": "DB_HOST"
 		},
-		"credit": {
-			"initialLimit": 100,
-			"initialDays": 1
+		"name": {
+			"doc": "Database name",
+			"format": "String",
+			"default": "users"
+		}
+	},
+	"someKey": {
+		"subKey": {
+			"doc": "Database host name/IP",
+			"format": "*",
+			"default": "server1.dev.test2",
+			"env": "DB_HOST"
+		},
+		"otherSubKey": {
+			"childOfASubKey": {
+				"doc": "Database name",
+				"format": "String",
+				"default": "users"
+			}
+		}
+	},
+	"someKey2": {
+		"subKey2": {
+			"doc": "Database host name/IP",
+			"format": "*",
+			"default": "server1.dev.test2",
+			"env": "DB_HOST"
+		},
+		"otherSubKey2": {
+			"childOfASubKey2": {
+				"doc": "Database name",
+				"format": "String",
+				"default": "users"
+			}
 		}
 	}
 }
