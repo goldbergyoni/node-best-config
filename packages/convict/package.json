@@ -5,11 +5,12 @@
 	"main": "configuration-service.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "cross-env DB_HOST=something node typical-client.js"
+		"start": "cross-env DB_HOST=something PORT=8080 node typical-client.js"
 	},
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"benchmark": "^2.1.4",
 		"convict": "^4.2.0"
 	}
 }
