@@ -10,7 +10,6 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"benchmark": "^2.1.4",
 		"convict": "^4.2.0"
 	}
 }

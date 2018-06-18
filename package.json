@@ -1,0 +1,33 @@
+{
+	"name": "node-best-config",
+	"version": "1.0.0",
+	"description": "A comparison and benchmark suite for popular Node.js configuration packages",
+	"main": "perf-benchmark.js",
+	"dependencies": {
+		"benchmark": "^2.1.4",
+		"config": "^1.30.0",
+		"convict": "^4.3.0",
+		"nconf": "^0.10.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "cross-env DB_HOST=another.service PORT=8081 node perf-benchmark.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/i0natan/node-best-config.git"
+	},
+	"keywords": [
+		"node",
+		"config",
+		"benchmark",
+		"comparison"
+	],
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/i0natan/node-best-config/issues"
+	},
+	"homepage": "https://github.com/i0natan/node-best-config#readme"
+}
